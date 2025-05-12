@@ -29,6 +29,8 @@
 
 // // if(gameWon === true) // show-> this will not work right?
 
+//  did the upper one in 20 mins, without googling that has some issues
+
 const min = 0, max = 100;
 const winningNumber = Math.floor(Math.random() * (max - min + 1)) + min;
 
