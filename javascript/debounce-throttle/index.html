@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debounce and throttle</title>
+</head>
+<body style="background-color: aqua;">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 2 rem" >
+        <input type="number" style="color: red; height: 40px; width: 100px;" id="main-input" placeholder="enter throttle timing please" min="0" max="10000"/>
+        <button style="color: red; height: 50px; width: 100px;" id="main-button">Click me</button>
+
+        
+    </div>
+    <div>
+        <p>Button pressed <span id="pressedCount">0</span></p>
+        <p>Button triggered <span id="triggeredCount">0</span></p>
+    </div>
+    
+   <script src="index.js"></script>
+</body>
+</html>
